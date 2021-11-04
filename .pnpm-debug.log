@@ -1,0 +1,107 @@
+{
+  "0 debug pnpm:scope": {
+    "selected": 1
+  },
+  "1 debug pnpm:package-manifest": {
+    "initial": {
+      "dependencies": {
+        "@nestjs/cli": "^8.1.4",
+        "@vue/cli": "^4.5.14",
+        "pnpm": "^6.17.2"
+      },
+      "dependenciesMeta": {
+        "pnpm": {
+          "node": "/usr/local/Cellar/node/16.8.0/bin/node"
+        },
+        "@nestjs/cli": {
+          "node": "/usr/local/Cellar/node/16.8.0/bin/node"
+        },
+        "@vue/cli": {
+          "node": "/usr/local/Cellar/node/16.8.0/bin/node"
+        }
+      }
+    },
+    "prefix": "/usr/local/Cellar/node/16.8.0/pnpm-global/5"
+  },
+  "2 debug pnpm:context": {
+    "currentLockfileExists": true,
+    "storeDir": "/Users/ryanmoyo/.pnpm-store/v3",
+    "virtualStoreDir": "/usr/local/Cellar/node/16.8.0/pnpm-global/5/node_modules/.pnpm"
+  },
+  "3 debug pnpm:stage": {
+    "prefix": "/usr/local/Cellar/node/16.8.0/pnpm-global/5",
+    "stage": "resolution_started"
+  },
+  "4 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmmirror.com/pnpm/6.17.2",
+    "wanted": {
+      "dependentId": ".",
+      "name": "pnpm",
+      "rawSpec": "^6.17.2"
+    }
+  },
+  "5 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmmirror.com/@vue/cli/4.5.14",
+    "wanted": {
+      "dependentId": ".",
+      "name": "@vue/cli",
+      "rawSpec": "^4.5.14"
+    }
+  },
+  "6 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmmirror.com/@nestjs/cli/8.1.4",
+    "wanted": {
+      "dependentId": ".",
+      "name": "@nestjs/cli",
+      "rawSpec": "^8.1.4"
+    }
+  },
+  "7 debug pnpm:progress": {
+    "packageId": "registry.npmmirror.com/pnpm/6.17.2",
+    "requester": "/usr/local/Cellar/node/16.8.0/pnpm-global/5",
+    "status": "resolved"
+  },
+  "8 debug pnpm:progress": {
+    "packageId": "registry.npmmirror.com/pnpm/6.17.2",
+    "requester": "/usr/local/Cellar/node/16.8.0/pnpm-global/5",
+    "status": "found_in_store"
+  },
+  "9 debug pnpm:progress": {
+    "packageId": "registry.npmmirror.com/@vue/cli/4.5.14",
+    "requester": "/usr/local/Cellar/node/16.8.0/pnpm-global/5",
+    "status": "resolved"
+  },
+  "10 debug pnpm:progress": {
+    "packageId": "registry.npmmirror.com/@vue/cli/4.5.14",
+    "requester": "/usr/local/Cellar/node/16.8.0/pnpm-global/5",
+    "status": "found_in_store"
+  },
+  "11 debug pnpm:progress": {
+    "packageId": "registry.npmmirror.com/@nestjs/cli/8.1.4",
+    "requester": "/usr/local/Cellar/node/16.8.0/pnpm-global/5",
+    "status": "resolved"
+  },
+  "12 debug pnpm:progress": {
+    "packageId": "registry.npmmirror.com/@nestjs/cli/8.1.4",
+    "requester": "/usr/local/Cellar/node/16.8.0/pnpm-global/5",
+    "status": "found_in_store"
+  },
+  "13 error pnpm": {
+    "code": "ERR_PNPM_FETCH_404",
+    "hint": "nnrms is not in the npm registry, or you have no permission to fetch it.\n\nNo authorization header was set for the request.",
+    "request": {
+      "url": "https://registry.npmmirror.com/nnrms"
+    },
+    "response": {
+      "size": 0
+    },
+    "pkgName": "nnrms",
+    "pkgsStack": [],
+    "err": {
+      "name": "pnpm",
+      "message": "GET https://registry.npmmirror.com/nnrms: Not Found - 404",
+      "code": "ERR_PNPM_FETCH_404",
+      "stack": "pnpm: GET https://registry.npmmirror.com/nnrms: Not Found - 404\n    at RetryOperation._fn (/usr/local/Cellar/node/16.8.0/pnpm-global/5/node_modules/.pnpm/pnpm@6.17.2/node_modules/pnpm/dist/pnpm.cjs:85087:18)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)"
+    }
+  }
+}

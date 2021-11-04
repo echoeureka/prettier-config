@@ -1,0 +1,22 @@
+{
+  "name": "@ryanmoyo/prettier-config",
+  "version": "1.0.0",
+  "description": "@ryanmoyo/prettier-config",
+  "main": ".prettierrc.json",
+  "private": false,
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ryanmoyo/prettier-config.git"
+  },
+  "keywords": [
+    "ryanmoyo",
+    "prettier"
+  ],
+  "author": "ryanmoyo",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/ryanmoyo/prettier-config/issues"
+  },
+  "homepage": "https://github.com/ryanmoyo/prettier-config#readme"
+}
